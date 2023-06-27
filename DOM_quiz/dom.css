@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+.q1Class {
+  border: 1px solid #000;
+  width: 860px;
+  height: 200px;
+}
+
+.q2Class1 {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 860px;
+}
+.q2Class2 {
+  border: 1px solid #000;
+  width: 172px;
+  cursor: pointer;
+}
