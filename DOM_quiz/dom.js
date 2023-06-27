@@ -14,7 +14,7 @@ window.onload = function () {
 
 const q2 = document.querySelectorAll(".q2Class2");
 
-q2.forEach(function (element) {
+q2.forEach((element) => {
   element.addEventListener("click", function (event) {
     // 클릭한 요소에 대한 작업
     event.target.style.color = "orange";

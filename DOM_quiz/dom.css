@@ -2,12 +2,14 @@
   box-sizing: border-box;
 }
 
+/* 문제 1번 CSS */
 .q1Class {
   border: 1px solid #000;
   width: 860px;
   height: 200px;
 }
 
+/* 문제 2번 CSS */
 .q2Class1 {
   display: flex;
   justify-content: space-between;
@@ -18,4 +20,12 @@
   border: 1px solid #000;
   width: 172px;
   cursor: pointer;
+}
+
+/* 문제 3번 CSS */
+.q3Class1 {
+  /* display: none; */
+}
+.q3Class2 {
+  display: none;
 }
