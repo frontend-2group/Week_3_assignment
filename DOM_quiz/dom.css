@@ -24,7 +24,7 @@
 
 /* 문제 3번 CSS */
 .q3Class1 {
-  /* display: none; */
+  display: none;
 }
 .q3Class2 {
   display: none;
