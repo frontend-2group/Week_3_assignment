@@ -1,0 +1,70 @@
+
+/* Q1. change text on load */
+body {    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+}
+.container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);  
+    overflow: hidden;  
+    padding-top: 10%;
+}
+.content {
+  width: 1024px;
+}
+.display {
+  height: 200px;
+  border: 1px solid black;
+}
+.changeTxt {
+    display: none;
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 6.5%;
+}
+.changeTxt p:nth-of-type(2){
+    font-size: 22px;
+    margin-top: -2%;
+}
+
+/* TAB */
+#list {
+    border: 1px solid #ededed;
+}
+.tab_host, .tab_body {
+  display: flex;
+  margin-top: 50px;
+  text-align: center;
+}
+.tab {
+    width: 200px;
+    border: 1px solid #e4d2ed;
+    padding: 1.6%;
+    border-radius: 25px 25px 0 0;
+}
+.tab_host .active {
+    background-color: #3c0c80;
+    color: #ededed;
+    transition: all .4s;
+}
+.tab_body {
+    padding: 5% 0;
+    margin-top: 0px;
+    background-color: #e4d2ed;
+    color: #3c0c80;
+}
+.tab_body div { 
+    margin: 10px 60px;
+    display: none;
+}
+.tab:hover {
+  cursor: pointer;
+}
+.tab_body .block {
+    display: block;
+}
+
+

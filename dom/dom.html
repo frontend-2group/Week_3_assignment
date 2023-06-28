@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>3주차 플로우 | DOM 과제</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./dom.css">
+    <!-- JS -->
+    <script defer src="./dom.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="display" id="display">
+          <form>
+            <p>1.페이지가 로딩 될 때 이곳의 글씨를 변경하시오.</p>
+            <span class="changeTxt">
+              <p>로딩이 완료되었습니다.</p>
+              <p>TAB을 눌러보세요.</p>
+            </span>
+          </form>
+        </div>
+        <!-- <p>2.탭을 선택하면 선택한 탭의 배경과 글자의색이 바뀌도록 하시오</p> -->
+        <div class="tab_host">
+          <div onClick="showContent(0)" class="tab active">TAB 1</div>
+          <div onClick="showContent(1)" class="tab">TAB 2</div>
+          <div onClick="showContent(2)" class="tab">TAB 3</div>
+          <div onClick="showContent(3)" class="tab">TAB 4</div>
+          <div onClick="showContent(4)" class="tab">TAB 5</div>
+        </div>
+        <!-- <p>3. 위의 탭 클릭시 아래의 컨텐츠중 탭과 숫자가 같은 것만 보이게 하시오.</p> -->
+        <div class="tab_body">
+          <div class="content block">TAB1 contents</div>
+          <div class="content">TAB2 contents</div>
+          <div class="content">TAB3 contents</div>
+          <div class="content">TAB4 contents</div>
+          <div class="content">TAB5 contents</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
