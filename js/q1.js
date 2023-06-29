@@ -7,8 +7,34 @@
 변수 e는 main함수의 최종 반환 값으로 향후 다른 함수에서 재사용된다.
 */
 
-function solution() {}
-function parse() {}
+
+
 function main() {
+
+  let a;
+  let b = document.querySelector('');
+
+  function solution(c) {
+    let d = c;
+  }
   solution();
+
 }
+main();
+
+function parse() {
+  let e = mainResult;
+}
+
+
+/*
+
+정답
+
+a = main()함수 내부
+b = main 함수 내부
+c = solution()함수 내부
+d = solution()함수 내부
+e = main()함수 내부와 재사용될 외부 함수, 2곳에 위치
+
+*/
