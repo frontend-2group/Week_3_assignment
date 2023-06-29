@@ -31,4 +31,5 @@ function division(num) {
     console.log(array)
 }
 
+
 division(4)
