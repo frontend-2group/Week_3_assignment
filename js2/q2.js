@@ -12,12 +12,15 @@ for (let i = 0; i < 80; i++) {
     num.push(i + 1);
 }
 
-// function division(num, chunk) {
-//     let result = [];
-//     for (i = 0; i < num.length; i++) {}
-//     return result;
-// }
+function division() {
+    let newNum = [];
 
-console.log(num);
+    for (let i = 0; i < num.length; i += 5) {
+        newNum.push(num.slice(i, i + 5));
+    }
+    return newNum;
+}
 
-//아아아아아아앙아아아아앙아아
+console.log(division(num));
+
+//아.. slice해야하는데 splice해서 계속 이상하게 나왔었네 어쩐지.. 중간에 번호가 삭제 되더라..휴휴..
