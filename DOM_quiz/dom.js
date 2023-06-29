@@ -3,7 +3,7 @@
 1. 변수 $q1에 아이디가 q1ID인 요소 선택
 
 2.  window.onload로 스타일, 이미지 등 리소스들이 모두 로드되었을 때
-    색상을 변경하는 함수정의.
+    텍스트릴 이탤릭체로 바꾸는 함수 정의.
 
 */
 const $q1 = document.querySelector("#q1ID");
