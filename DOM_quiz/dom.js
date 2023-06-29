@@ -8,7 +8,7 @@
 */
 const $q1 = document.querySelector("#q1ID");
 window.onload = function () {
-  $q1.style.color = "red";
+  $q1.style.fontStyle = "italic";
 };
 
 // 2번. 클릭 시 배경,글자 색 변경
