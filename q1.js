@@ -7,8 +7,29 @@
 변수 e는 main함수의 최종 반환 값으로 향후 다른 함수에서 재사용된다.
 */
 
-function solution() {}
-function parse() {}
-function main() {
-  solution();
+function solution(c) {
+  let d = c.toString();
+
+  return d
 }
+
+function parse(e) {}
+
+function main() {
+  let a = "" 
+  let b = document.querySelectorAll('.abcd')
+
+  let count = 0
+  // 클릭이벤트에서 사용
+  for(let bArr of b){
+    bArr.addEventListener('click', function(e) {
+      count++
+    });
+  }
+
+  solution(count);
+}
+
+let e = main()
+
+parse(e) //함수 재사용
