@@ -7,4 +7,16 @@ ex) 길이기 80인 배열은 길이가 5로 분해한다면 16개의 배열을 
     ex) [1...80] => [[1...5], [6...10], [11...15], ... , [76...80]]
 */
 
-function division() {}
+function division(array, divSize) {
+    const result = [];
+
+    for (let i = 0; i < array.length; i += divSize) {
+        const part = array.slice(i, i + divSize);
+        result.push(part);
+    }
+
+    return result;
+}
+
+const divisionArray = division(Array.from({length:80}, (_, index) => index + 1), 5);
+console.log(divisionArray);
